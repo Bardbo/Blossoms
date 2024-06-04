@@ -46,7 +46,7 @@ In cec2017.py, the parameter setting of the test function **F10: Hybrid Function
 As not all test functions in the Opfunu library have been individually verified, it is not possible to ascertain whether there are other errors of a similar nature. Consequently, it is necessary to perform the requisite verification when the library is actually being utilized.
 # 如何使用
 
-直接将这个项目下载到本地即可使用，在运行过程中缺少什么库安装什么库即可，由于Geatpy目前支持的Python版本为3.10，因此不能在高于3.10的Python中使用
+直接将这个项目下载到本地即可使用（可以不用下载experiment文件夹中的result和fig文件夹内容），在运行过程中缺少什么库安装什么库即可，由于Geatpy目前支持的Python版本为3.10，因此不能在高于3.10的Python中使用
 
 建议在虚拟Python环境中安装如下库：
 

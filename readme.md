@@ -16,7 +16,7 @@ Blossoms可以视为Geatpy的一个扩展，这个名字来源于曾热播的王
 2. mealpy3.0.1版本中整数决策变量边界修复可能有问题，此外算法的时间终止条件存在问题
 + The Mealpy library exhibits integer boundary and time termination condition errors.
 
-In line 207 of space.py, the recommended method for boundary repair for integer decision variable types employs the \verb|np.clip| function, which may result in inaccurate values for integer decision variables. Therefore, it is recommended to refer to the following changes:
+In line 207 of space.py, the recommended method for boundary repair for integer decision variable types employs the `np.clip` function, which may result in inaccurate values for integer decision variables. Therefore, it is recommended to refer to the following changes:
 
 ```python
 class FixedIntegerVar(mealpy.IntegerVar):

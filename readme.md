@@ -44,6 +44,7 @@ self.termination.start_time, es)
 In cec2017.py, the parameter setting of the test function **F10: Hybrid Function 1** is erroneous. The parameter $p$ should be set to $[0.2, 0.4, 0.4]$.In a similar manner, the parameter $p$ in **F17: Hybrid Function 8** should be set to $[0.2, 0.2, 0.2, 0.2, 0.2, 0.2]$.
 
 As not all test functions in the Opfunu library have been individually verified, it is not possible to ascertain whether there are other errors of a similar nature. Consequently, it is necessary to perform the requisite verification when the library is actually being utilized.
+
 # 如何使用
 
 直接将这个项目下载到本地即可使用（可以不用下载experiment文件夹中的result和fig文件夹内容），在运行过程中缺少什么库安装什么库即可，由于Geatpy目前支持的Python版本为3.10，因此不能在高于3.10的Python中使用
@@ -54,6 +55,8 @@ As not all test functions in the Opfunu library have been individually verified,
 pip install geatpy==2.7
 pip install mealpy==3.0.1
 ```
+
+# 引用与交流
 
 本着不浪费的原则，将上述简单工作整理成了一篇文章，目前正在投递中（我知道很水哈哈别骂了 包括代码也是如此～）
 
